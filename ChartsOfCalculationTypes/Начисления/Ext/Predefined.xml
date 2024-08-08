@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CalculationTypePredefinedItems" version="2.18">
+	<Item id="a15f20d9-3f6c-4a2a-b443-5b9ef4d6d9fc">
+		<Name>Больничный</Name>
+		<Code>БЛН</Code>
+		<Description>Больничный</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+	</Item>
+	<Item id="6572aa62-c26d-4896-b192-d0fcfdc9f06e">
+		<Name>Оклад</Name>
+		<Code>ОКЛ</Code>
+		<Description>Оклад</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+		<Displaced>
+			<CalculationType>ChartOfCalculationTypes.Начисления.Больничный</CalculationType>
+		</Displaced>
+	</Item>
+</PredefinedData>

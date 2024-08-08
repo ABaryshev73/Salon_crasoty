@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ChartOfAccountsPredefinedItems" version="2.18">
+	<Item id="df83a9ff-43f0-4b28-a9b8-43ddb30cf684">
+		<Name>Материалы</Name>
+		<Code>10</Code>
+		<Description>Материалы</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+		<ExtDimensionTypes>
+			<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконтоХозрасчётные.Номенклатура">
+				<Turnover>false</Turnover>
+				<AccountingFlags/>
+			</ExtDimensionType>
+		</ExtDimensionTypes>
+	</Item>
+	<Item id="90177cd9-8951-48ce-939d-a835ded45923">
+		<Name>Товары</Name>
+		<Code>41</Code>
+		<Description>Товары</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+		<ExtDimensionTypes>
+			<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконтоХозрасчётные.Номенклатура">
+				<Turnover>false</Turnover>
+				<AccountingFlags/>
+			</ExtDimensionType>
+		</ExtDimensionTypes>
+	</Item>
+	<Item id="cdeab8c5-bf31-4748-817c-de194c697d58">
+		<Name>РасходыНаПродажу</Name>
+		<Code>44</Code>
+		<Description>Расходы на продажу</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+		<ExtDimensionTypes>
+			<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконтоХозрасчётные.СтатьиЗатрат">
+				<Turnover>false</Turnover>
+				<AccountingFlags/>
+			</ExtDimensionType>
+		</ExtDimensionTypes>
+	</Item>
+	<Item id="ab19524e-d5da-48b0-97a2-c1dde56d2be7">
+		<Name>Касса</Name>
+		<Code>50</Code>
+		<Description>Касса</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+		<ExtDimensionTypes>
+			<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконтоХозрасчётные.Кассы">
+				<Turnover>false</Turnover>
+				<AccountingFlags/>
+			</ExtDimensionType>
+		</ExtDimensionTypes>
+	</Item>
+	<Item id="b91aadf4-b84e-4aec-b741-186fa62fb36b">
+		<Name>РасчётыСПоставщиками</Name>
+		<Code>60</Code>
+		<Description>Расчёты с поставщиками</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+		<ExtDimensionTypes>
+			<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконтоХозрасчётные.Контрагенты">
+				<Turnover>false</Turnover>
+				<AccountingFlags/>
+			</ExtDimensionType>
+		</ExtDimensionTypes>
+	</Item>
+	<Item id="2b5dbc1d-aa9f-4c72-ae32-d6a2e59e322b">
+		<Name>РасчётыСПокупателями</Name>
+		<Code>62</Code>
+		<Description>Расчёты с покупателями</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+		<ExtDimensionTypes>
+			<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконтоХозрасчётные.Контрагенты">
+				<Turnover>false</Turnover>
+				<AccountingFlags/>
+			</ExtDimensionType>
+		</ExtDimensionTypes>
+	</Item>
+	<Item id="541f0a00-a69a-4bf0-a199-8640095e269a">
+		<Name>РасчётыСПерсоналомПоОплатеТруда</Name>
+		<Code>70</Code>
+		<Description>Расчёты с персоналом по оплате труда</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+		<ExtDimensionTypes>
+			<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконтоХозрасчётные.Сотрудники">
+				<Turnover>false</Turnover>
+				<AccountingFlags/>
+			</ExtDimensionType>
+		</ExtDimensionTypes>
+	</Item>
+	<Item id="99620a51-162a-475b-a46d-b0cc918e5a92">
+		<Name>РасчётыСПодотчетнымиЛицами</Name>
+		<Code>71</Code>
+		<Description>Расчёты с подотчетными лицами</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+		<ExtDimensionTypes>
+			<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконтоХозрасчётные.Сотрудники">
+				<Turnover>false</Turnover>
+				<AccountingFlags/>
+			</ExtDimensionType>
+		</ExtDimensionTypes>
+	</Item>
+	<Item id="13bbeb05-ee9b-48e2-927b-d2358ab8dae9">
+		<Name>Продажи</Name>
+		<Code>90</Code>
+		<Description>Продажи</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="8c0191c5-41c2-4c76-a07e-ac25a6556e45">
+		<Name>ПрочиеДоходыИРасходы</Name>
+		<Code>91</Code>
+		<Description>Прочие доходы и расходы</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+		<ExtDimensionTypes/>
+	</Item>
+</PredefinedData>
